@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ivansabik/chacalo#readme",
   "dependencies": {
+    "underscore": "^1.8.3",
     "x-ray": "^2.0.2",
     "x-ray-phantom": "^1.0.1"
   }
