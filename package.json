@@ -4,11 +4,11 @@
   "description": "CLI app for downloading from Mixcloud, Soundcloud and Youtube",
   "main": "youtube.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivansabik/chacalo.git"
+    "url": "https://github.com/ivansabik/chacalo.git"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/ivansabik/chacalo#readme",
   "dependencies": {
+    "assert-diff": "^1.0.1",
+    "mocha": "^2.3.3",
+    "sanitize-filename": "^1.4.4",
     "underscore": "^1.8.3",
     "x-ray": "^2.0.2",
     "x-ray-phantom": "^1.0.1"
