@@ -7,8 +7,7 @@ CLI script for downloading from Mixcloud, Soundcloud and Youtube single files, p
 ## Setup
 
 ```bash
-$ git clone https://github.com/ivansabik/chacalo.git
-$ node bin/setup.js
+$ npm install -g chacalo
 ```
 
 ## Dependencies

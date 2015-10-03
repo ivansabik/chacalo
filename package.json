@@ -4,7 +4,8 @@
   "description": "CLI app for downloading from Mixcloud, Soundcloud and Youtube",
   "main": "youtube.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "preinstall": "sudo node bin/setup.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/ivansabik/chacalo#readme",
   "dependencies": {
     "assert-diff": "^1.0.1",
-    "mocha": "^2.3.3"
+    "mocha": "^2.3.3",
+    "shelljs": "^0.5.3"
   }
 }

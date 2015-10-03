@@ -38,7 +38,7 @@ it('download songs from text file', function (done) {
 });
 
 it('interface with youtube-dl', function (done) {
-	var cmd = 'youtube-dl -v';
+	var cmd = 'youtube-dl --version';
 	exec(cmd, function(error, stdout, stderr) {
 		assert.fail('implement test');
 	});
