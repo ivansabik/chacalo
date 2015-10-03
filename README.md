@@ -1,47 +1,20 @@
 # chacalo
 
+[![Travis CI Build Status](https://travis-ci.org/ivansabik/chacalo.svg)](https://travis-ci.org/ivansabik/chacalo)
+
 CLI script for downloading from Mixcloud, Soundcloud and Youtube single files, playlists and multiple URLs from file
 
 ## Setup
 
-Setup script for mint/ubuntu yet to come.
-
+```bash
+$ git clone https://github.com/ivansabik/chacalo.git
+$ node bin/setup.js
 ```
-$ cd ~
-$ sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
-$ sudo chmod a+rx /usr/local/bin/youtube-dl
-```
-
-```
-$ cd ~
-$ git clone git://github.com/n1k0/casperjs.git
-$ cd casperjs
-$ ln -sf `pwd`/bin/casperjs /usr/local/bin/casperjs
-```
-
-```
-$ cd ~
-$ git clone git://github.com/laurentj/slimerjs.git
-$ cd slimerjs
-$ ln -sf `pwd`/src/slimerjs /usr/local/bin/slimerjs
-```
-
-## Run casper for scraping the videos in playlists
-
-`$ casperjs --engine=slimerjs getHtmlCasperJs.js `
 
 ## Dependencies
 
-- slimerjs
-- x-ray
 - youtube-dl
-- casperjs
-
-## Sources
-
-- YouTube
-- Mixcloud
-- Soundcloud
+- scdl
 
 ## Features
 
@@ -55,7 +28,6 @@ Download all mp3 in playlist from URL
 
 - `$ ./chacalo https://www.youtube.com/playlist?list=PLSMqHGsgUUXCKsjhQTKG-PrYIGTPkRUGK`
 - `$ ./chacalo https://soundcloud.com/vlad-gonta/sets/new-1`
-- `$ ./chacalo MIXCLOUD PLS?`
 
 Download single mp3 and playlists specified in text file
 
