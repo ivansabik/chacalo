@@ -19,14 +19,14 @@ $ npm install -g chacalo
 
 Download single mp3 from URL
 
-- `$ ./chacalo https://www.youtube.com/watch?v=IcrMZaOputQ`
-- `$ ./chacalo https://soundcloud.com/alissa-imperatore-1/march-29-2008-deep-dish-cedric`
-- `$ ./chacalo https://www.mixcloud.com/insomniacevents/mark-farina-vinyl-feels-exclusive-mix/`
+- `$ ./chacalo https://www.youtube.com/watch?v=ID`
+- `$ ./chacalo https://soundcloud.com/URL
+- `$ ./chacalo https://www.mixcloud.com/URL
 
 Download all mp3 in playlist from URL
 
-- `$ ./chacalo https://www.youtube.com/playlist?list=PLSMqHGsgUUXCKsjhQTKG-PrYIGTPkRUGK`
-- `$ ./chacalo https://soundcloud.com/vlad-gonta/sets/new-1`
+- `$ ./chacalo https://www.youtube.com/playlist?list=ID
+- `$ ./chacalo https://soundcloud.com/URL
 
 Download single mp3 and playlists specified in text file
 
@@ -35,8 +35,8 @@ Download single mp3 and playlists specified in text file
 The file looks like this:
 
 ```
-https://www.youtube.com/watch?v=IcrMZaOputQ
-https://soundcloud.com/alissa-imperatore-1/march-29-2008-deep-dish-cedric
-https://www.youtube.com/playlist?list=PLSMqHGsgUUXCKsjhQTKG-PrYIGTPkRUGK
-https://www.mixcloud.com/insomniacevents/mark-farina-vinyl-feels-exclusive-mix/
+https://www.youtube.com/watch?v=ID
+https://soundcloud.com/URL
+https://www.youtube.com/URL
+https://www.mixcloud.com/URL
 ```
